@@ -1,0 +1,10 @@
+Package: me.dimphoton.mcdonaldsfix
+Name: McDonaldsFix
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: A tweak to bypass the forced upgrade in the McDonald's app
+Depiction: https://repo.dimphoton.me/depictions/mcdonaldsfix.html
+Maintainer: dimphoton <dimphoton@protonmail.com>
+Author: dimphoton <dimphoton@protonmail.com>
+Section: Tweaks
+Depends: firmware (>=12.0), mobilesubstrate (>= 0.9.5000), PreferenceLoader
