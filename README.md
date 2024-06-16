@@ -6,7 +6,11 @@ Despite some older versions of the McDonald's app having some level of compatibi
 
 ## Compatible Versions
 
-McDonaldsFix is currently compatible with at least versions 7.x.x and 8.x.x of the McDonalds US app.
+McDonaldsFix is currently compatible with at least versions 7.x.x and 8.x.x of the McDonalds US app. It might work with older versions provided they use the same API.
+
+## Configuration
+
+The iOS and app versions that are being spoofed to can be changed. The tweak can also be toggled on or off. These changes can be made in a preference pane in Settings.
 
 ## Download
 
