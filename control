@@ -1,6 +1,6 @@
 Package: me.dimphoton.mcdonaldsfix
 Name: McDonaldsFix
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: A tweak to bypass the forced upgrade in the McDonald's app
 Depiction: https://repo.dimphoton.me/depictions/mcdonaldsfix.html
