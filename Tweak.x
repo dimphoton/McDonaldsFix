@@ -55,7 +55,10 @@ static void notificationCallback(CFNotificationCenterRef center, void *observer,
 
 -(void)presentViewController:(id)arg1 animated:(BOOL)arg2 completion:(id)arg3 {
 	if (tweakEnabled) {
-		NSSet *alertStrings = [NSSet setWithObjects:@"We’ve heard your feedback & have made improvements to our app. Please update to the latest version of the McDonald’s app for an upgraded experience.",@"Escuchamos tus comentarios e hicimos actualizaciones a nuestro app. Actualízate a la última versión del app de McDonald's para disfrutar una experiencia superior.",nil];
+		NSSet *alertStrings = [NSSet setWithObjects:@"We’ve heard your feedback & have made improvements to our app. Please update to the latest version of the McDonald’s app for an upgraded experience.",
+		@"Escuchamos tus comentarios e hicimos actualizaciones a nuestro app. Actualízate a la última versión del app de McDonald's para disfrutar una experiencia superior.",
+		@"We've been doing some work behind the scenes and are excited to show you the latest. Please update to the latest version of the app for an upgraded experience. "
+		,nil];
 		if ([arg1 respondsToSelector:@selector(message)]) {
 			if (![alertStrings containsObject:[arg1 message]]) {
 				%orig;
