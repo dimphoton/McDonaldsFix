@@ -6,8 +6,8 @@ BOOL tweakEnabled = YES;
 NSString *UAString;
 
 void setupTweakPreferences() {
-	NSString *iosVersion = @"17.5.1";
-	NSString *appVersion = @"8.1.0";
+	NSString *iosVersion = @"26.0.1";
+	NSString *appVersion = @"25.82.1";
 	NSMutableDictionary *defaults = [NSMutableDictionary dictionaryWithContentsOfFile:ROOT_PATH_NS(@"/var/mobile/Library/Preferences/me.dimphoton.mcdfpreferences.plist")];
 	if (defaults) {
 		if (defaults[@"tweakEnabled"]) {

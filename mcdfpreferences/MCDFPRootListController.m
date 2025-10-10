@@ -18,7 +18,7 @@
 -(void)setPreferenceValue:(id)value specifier:(PSSpecifier *)specifier {
 	if ([specifier isKindOfClass:[PSTextFieldSpecifier class]]) {
 		NSError *regexError;
-		NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^([1-9][0-9]?)\\.(\\d{1,2})(\\.\\d)?$" options:0 error:&regexError];
+		NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^\\d{1,2}\\.\\d{1,3}\\.\\d$" options:0 error:&regexError];
 		NSRange lengthRange = NSMakeRange(0, [(NSString *)value length]);
 
 		if ([regex numberOfMatchesInString:value options:0 range:lengthRange] == 1) {
@@ -60,8 +60,8 @@
 	if (!defaults) {
 		defaults = [NSMutableDictionary dictionary];
 	}
-	[defaults setValue:@"17.5.1" forKey:@"iosVersion"];
-	[defaults setValue:@"8.1.0" forKey:@"appVersion"];
+	[defaults setValue:@"26.0.1" forKey:@"iosVersion"];
+	[defaults setValue:@"25.82.1" forKey:@"appVersion"];
 	[defaults writeToFile:ROOT_PATH_NS(@"/var/mobile/Library/Preferences/me.dimphoton.mcdfpreferences.plist") atomically:YES];
 	[self reloadSpecifiers];
 }

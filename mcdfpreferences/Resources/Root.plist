@@ -32,11 +32,11 @@
 			<key>label</key>
 			<string>iOS Version</string>
 			<key>placeholder</key>
-			<string>17.5.1</string>
+			<string>26.0.1</string>
 			<key>defaults</key>
 			<string>me.dimphoton.mcdfpreferences</string>
 			<key>default</key>
-			<string>17.5.1</string>
+			<string>26.0.1</string>
 			<key>key</key>
 			<string>iosVersion</string>
 		</dict>
@@ -46,11 +46,11 @@
 			<key>label</key>
 			<string>App Version</string>
 			<key>placeholder</key>
-			<string>8.1.0</string>
+			<string>25.82.1</string>
 			<key>defaults</key>
 			<string>me.dimphoton.mcdfpreferences</string>
 			<key>default</key>
-			<string>8.1.0</string>
+			<string>25.82.1</string>
 			<key>key</key>
 			<string>appVersion</string>
 		</dict>
