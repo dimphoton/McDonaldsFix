@@ -22,11 +22,6 @@ McDonaldsFix is currently compatible with at least versions 7.x.x and 8.x.x of t
 
 The iOS and app versions that are being spoofed to can be changed. The tweak can also be toggled on or off. These changes can be made in a preference pane in Settings.
 
-## Download
-
-* Download from my [repo](https://repo.dimphoton.me/)
-* or, alternatively, download from [Releases](https://github.com/dimphoton/McDonaldsFix/releases)
-
 ## License
 
 This project is made available under the [GNU GPLv3](LICENSE).
